@@ -8,14 +8,14 @@ A tool to hack a streamer's Tipeeestream account by using a little bit of social
 ## How to
 ### Installation
 TipeeeRekt.py is depending on:
-   `colored
-   requests
-   json
+   `colored,
+   requests,
+   json,
    sys`
 To install these python packages you can use the following commands in your command line:
-   `pip install colored
-   pip install requests
-   pip install json
+   `pip install colored &
+   pip install requests &
+   pip install json &
    pip install sys`
    
 ### Usage
