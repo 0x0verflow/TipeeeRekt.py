@@ -30,3 +30,4 @@ To install these python packages you can use the following commands in your comm
 
 ## Disclaimer
 This software is for educational purposes only!
+The exploit was already reported to Tipeeestream by Garkolym. They said it is not an exploit, just an usage of the API.
