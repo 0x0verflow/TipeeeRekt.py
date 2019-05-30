@@ -8,15 +8,15 @@ A tool to hack a streamer's Tipeeestream account by using a little bit of social
 ## How to
 ### Installation
 TipeeeRekt.py is depending on:
-   ```colored
+   `colored
    requests
    json
-   sys```
+   sys`
 To install these python packages you can use the following commands in your command line:
-   ```pip install colored
+   `pip install colored
    pip install requests
    pip install json
-   pip install sys```
+   pip install sys`
    
 ### Usage
 1) Open Burp Suite and connect it to your browser. You'll need the proxy feature later.
