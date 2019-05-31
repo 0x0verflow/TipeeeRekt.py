@@ -11,11 +11,11 @@ TipeeeRekt.py is depending on:
    `colored,
    requests,
    json,
-   sys`
+   sys`. 
 To install these python packages you can use the following commands in your command line:
-   `pip install colored &
-   pip install requests &
-   pip install json &
+   `pip install colored &&
+   pip install requests &&
+   pip install json &&
    pip install sys`
    
 ### Usage
