@@ -13,8 +13,6 @@ import json
 ########## only!! ##########
 ############################
 
-debug = 1
-
 print("")
 print(colored.fg("dark_red_2"))
 print('▄▄▄█████▓ ██▓ ██▓███  ▓█████ ▓█████ ▓█████     ██▀███  ▓█████  ██ ▄█▀▄▄▄█████▓', colored.fg("dark_red_2"))
@@ -27,9 +25,9 @@ print('    ░     ▒ ░░▒ ░      ░ ░  ░ ░ ░  ░ ░ ░  ░
 print('  ░       ▒ ░░░          ░      ░      ░        ░░   ░    ░   ░ ░░ ░   ░      ', colored.fg("dark_red_2"))
 print('          ░              ░  ░   ░  ░   ░  ░      ░        ░  ░░  ░            ')
 
-print('')
-print(colored.fg("cyan"), '       by Proxex (GitHub) | Bug found by Garkolym (YouTube) | V1.0')
-print('')
+print(colored.fg("cyan"), '')
+print('       by Proxex (GitHub) | Bug found by Garkolym (YouTube) | V1.0')
+print('                          http://0x0verflow.cf/')
 print('', colored.fg("white"))
 
 if len(sys.argv) < 5:
@@ -47,8 +45,7 @@ print("")
 print('[*  ] Getting username for following actions...')
 r_username = requests.get("https://api.tipeeestream.com/v1.0/me?apiKey=" + sys.argv[4])
 
-if debug == 1:
-    print("[DBG] Request: " + r_username.text)
+print("[DBG] Request: " + r_username.text)
 
 if "authentification is required" in r_username.text:
     print("[E] Wrong apiKey! Can't get username!")
@@ -71,8 +68,7 @@ h = {
 
 r_link = requests.post("https://www.tipeeestream.com/v2.0/users/" + username_json["username"] + "/providers?apiKey=" + sys.argv[4], data=payload, headers=h)
 
-if debug == 1:
-    print("[DBG] Request: " + r_link.text)
+print("[DBG] Request: " + r_link.text)
 
 if not "success" in r_link.text:
     print("[ERR] Something went wrong while linking the account. Have a look at: <provider> <provider_access_token> <provider_refresh_token>")
