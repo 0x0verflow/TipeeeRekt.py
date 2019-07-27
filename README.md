@@ -2,8 +2,8 @@
 A tool to hack a streamer's Tipeeestream account by using a little bit of social enineering
 
 ## Credits
- - Code: Proxex
- - Exploit: Garkolym
+ - Code: 0x0verflow | http://0x0verflow.cf/
+ - Exploit: Garkolym | https://www.youtube.com/channel/UCukS5iWNa60iBC60MCdETBw
  
 ## How to
 ### Installation
