@@ -6,7 +6,7 @@ import json
 ############################
 ##### TipeeeRekt  V1.0 #####
 ############################
-#### by Proxex (GitHub) ####
+## by 0x0verflow (GitHub) ##
 # Exploit by Garkolym (YT) #
 ############################
 # For educational purposes #
