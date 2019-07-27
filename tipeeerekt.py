@@ -28,7 +28,7 @@ print('  ░       ▒ ░░░          ░      ░      ░        ░░   
 print('          ░              ░  ░   ░  ░   ░  ░      ░        ░  ░░  ░            ')
 
 print(colored.fg("cyan"), '')
-print('       by Proxex (GitHub) | Bug found by Garkolym (YouTube) | V1.0')
+print('       by 0x0verflow (GitHub) | Bug found by Garkolym (YouTube) | V1.0')
 print('                          http://0x0verflow.cf/')
 print('', colored.fg("white"))
 
