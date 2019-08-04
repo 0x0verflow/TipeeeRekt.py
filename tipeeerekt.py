@@ -51,7 +51,7 @@ if debug:
     print("[DBG] Request: " + r_username.text)
 
 if "authentification is required" in r_username.text:
-    print("[E] Wrong apiKey! Can't get username!")
+    print("[ERR] Wrong apiKey! Can't get username!")
     print("")
     exit()
 
