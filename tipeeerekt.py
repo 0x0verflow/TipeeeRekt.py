@@ -13,7 +13,7 @@ import json
 ########## only!! ##########
 ############################
 
-debug = True
+debug = False
 
 print("")
 print(colored.fg("dark_red_2"))
