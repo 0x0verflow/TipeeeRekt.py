@@ -2,8 +2,8 @@
 A tool to hack a streamer's Tipeeestream account by using a little bit of social enineering
 
 ## Credits
- - Code: @0x0verflow | http://0x0verflow.cf/
- - Exploit: @DavAlbert | https://www.youtube.com/channel/UCukS5iWNa60iBC60MCdETBw
+ - Code: @0x0verflow
+ - Original found by @DavAlbert
  
 ## How to
 ### Installation
@@ -13,19 +13,22 @@ TipeeeRekt.py is depending on:
    json,
    sys`. 
 To install these python packages you can use the following commands in your command line:
-   `pip install colored &&
-   pip install requests &&
-   pip install json &&
-   pip install sys`
+   `pip install colored requests`.
    
 ### Usage
 1) Open Burp Suite and connect it to your browser. You'll need the proxy feature later.
+
 2) Ask the streamer you're watching to show you the URL of a frame or a scene he uses. You can do this by telling him, that you've donated, but nothing is happening and you want to help to fix it.
+
 3) Make a screenshot when he shows the end of the URL. All characters after the '#' are the apiKey.
+
 4) Log into Tipeeestream by using a platform, the streamer isn't using. While doing this, use Intercept in Burp and forward all requests until you get something looking like this:
 ![Burp Suite Screenshot: Tipeeestream OAuth login request](https://i.ibb.co/kxNDMDy/tipeeerekt.png)
+
 5) Now run TipeeeRekt.py via python on your command line. You'll see the syntax. Just enter the data of the HTTP request and the apiKey and run the tool. Wait until it finishes.
+
 6) Go back to Burp and turn intercept off. You'll be logged into the streamers account
+
 7) (Optional) Go to Settings -> Management and remove your account. Now there is no more evidence, that the streamers account was hacked.
 
 ## Disclaimer
