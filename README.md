@@ -1,3 +1,5 @@
+   This is only a POC! Don't use this against other people without their permission!
+
 # TipeeeRekt.py
 A tool to hack a streamer's Tipeeestream account with a little bit of social enineering.
 
