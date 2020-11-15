@@ -1,7 +1,7 @@
 > This is only a POC! Don't use this against other people without their permission!
 
 # TipeeeRekt.py
-A tool to hack a streamer's Tipeeestream account with a little bit of social enineering.
+A tool to hack or recover a streamer's Tipeeestream account with a little bit of social enineering.
 
 ## Credits
  - Code: @0x0verflow
@@ -35,5 +35,7 @@ You can install the missing packages with the following command:
 
 ## Disclaimer
 This software is for educational purposes only!
-The exploit has already been reported to Tipeeestream. They said it's not an exploit, just normal usage of their API.
+The exploit has already been reported to Tipeeestream. They said it's not an exploit, just normal usage of their API which their users are warned about.
+Please ONLY use this tool to recover your own account or to troll people you've got a permission from.#
+**Any other usage of this tool is illegal.**
 
